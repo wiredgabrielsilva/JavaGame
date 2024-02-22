@@ -1,2 +1,3 @@
 # JavaGame
-The simple java number prediction game on a gui
+
+A simple number guessing game with java.
