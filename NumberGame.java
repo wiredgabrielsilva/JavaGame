@@ -86,6 +86,7 @@ public class NumberGame {
 						// debug
 						// System.out.println(trial);
 
+						
 						if (guess > int_random) {
 							if (trial > 0 && trial < 5 && trial != int_random) {
 								highLow.setText("Almost!!!");
@@ -115,6 +116,8 @@ public class NumberGame {
 
 					} catch (Exception r) {
 						life = life + 5;
+						String lifeE = String.valueOf(life);
+						lifeTotal.setText(lifeE);
 						highLow.setText("Oops, something went wrong. Please try something else.");
 					}
 
